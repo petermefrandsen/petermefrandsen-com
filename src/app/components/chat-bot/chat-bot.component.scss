@@ -1,0 +1,164 @@
+.chat-bot {
+  @at-root #{&}__container {
+    background-color: #E3E3E3;
+    border-radius: 0%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 4;
+
+    @media (min-width: 901px) {
+      bottom: 2em;
+      border-radius: 0.5em;
+      box-shadow: 0 0 0 1px rgba(0,0,0,.05), 0 5px 25px 0 rgba(0,0,0,.20), 0 4px 4px 0 rgba(0,0,0,.1);
+      height: 600px;
+      right: 2em;
+      top: unset;
+      width: 350px;
+    }
+  }
+
+  @at-root #{&}__header {
+    align-items: center;
+    background:#000;
+    color: #fff;
+    display: flex;
+    font-size: 1.2em;
+    font-weight: 600;
+    justify-content: space-between;
+    height: 4.5em;
+    padding: 0 2em;
+    position: fixed;
+    top: 0;
+    width: calc(100vw - 4.0em);
+
+    @media (min-width: 901px) {
+      border-radius: 0.5em 0.5em 0 0;
+      border: 2px solid #fff;
+      border-bottom: none;
+      padding: 0 0.5em;
+      position: static;
+      width: unset;
+    }
+
+    @at-root #{&}__icon {
+      margin-left: 0.5em;
+      :hover {
+        cursor: pointer;
+      }
+    }
+
+    @at-root #{&}__text {
+      font-weight: 600;
+    }
+  }
+
+  @at-root #{&}__content {
+    border-radius: 0 0 0.5em 0.5em;
+    flex: 1;
+    padding: 0.5em;
+    margin-top: 4.5em;
+    overflow-y: scroll;
+
+    @media (min-width: 901px) {
+      margin-top: 0;
+    }
+
+    @at-root #{&}__chat-bot-message {
+      align-items: center;
+      background-color:  rgb(70, 70, 70);
+      border-radius: 1em;
+      color: #fff;
+      display: flex;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin: 0.3em;
+      min-height: 1.7em;
+      padding: 0.5em 1em;
+      width: 80%;
+
+      @at-root #{&}__icon {
+        display: inline-block;
+        width: 0.9em;
+        height: 0.9em;
+      }
+
+      @at-root #{&}--chat-bot {
+        float: right;
+      }
+
+      @at-root #{&}--user {
+        background-color:  rgb(120, 120, 120);;
+        float: left;
+      }
+    }
+
+    @at-root #{&}__question {
+      align-items: center;
+      background-color:  rgba(146, 122, 106, 0.7);
+      border: 0;
+      border-radius: 1em;
+      color: #fff;
+      display: flex;
+      float: left;
+      font-size: 0.9em;
+      font-weight: 600;
+      margin: 0.2em;
+      min-height: 2.5em;
+      padding: 0 1em;
+      transition: all .2s ease-in-out;
+      width: fit-content;
+
+      &:hover {
+        background-color: rgba(146, 122, 106, 1);
+        cursor: pointer;
+      }
+
+      @at-root #{&} div {
+        padding-left: 0.5em;
+      }
+    }
+  }
+}
+
+.chat__icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 2em;
+  min-width: 2em;
+  margin-right: 0.5em;
+  max-width: 2em;
+  padding: 0 0.2em;
+
+  @at-root #{&}--inline {
+    min-height: 0.9em;
+    min-width: 0.9em;
+    margin-right: unset;
+    max-width: 0.9em;
+  }
+
+  @at-root #{&}__angular {
+    background-image: url('../../../assets/Angular.svg');
+  }
+
+  @at-root #{&}__linkedin {
+    background-image: url('../../../assets/LinkedIn.svg');
+  }
+
+  @at-root #{&}__robot {
+    background-image: url('../../../assets/Robot.svg');
+  }
+
+  @at-root #{&}__smiley {
+    background-image: url('../../../assets/Smiley.svg');
+  }
+
+  @at-root #{&}__unsplash {
+    background-image: url('../../../assets/Unsplash.svg');
+  }
+}

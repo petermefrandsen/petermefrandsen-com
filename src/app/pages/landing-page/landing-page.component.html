@@ -1,3 +1,10 @@
-<p>landing-page works!</p>
-
 <app-cover-image></app-cover-image>
+<app-chat-bot *ngIf="chatBotHasBeenOpen" [hidden]="chatBotHasBeenOpen && !showChatBot" (closeChatBot)="onCloseChatBot()"></app-chat-bot>
+
+<div [ngClass]="{'chat-bubble__container--show': !showChatBot,
+ 'chat-bubble__container--hide': showChatBot }"
+ class="chat-bubble chat-bubble__size" (click)="onOpenChatBot()">
+   <div style="display: flex;">
+     <mat-icon [inline]="true" aria-hidden="false" aria-label="To top">contact_support</mat-icon>
+   </div>
+</div>

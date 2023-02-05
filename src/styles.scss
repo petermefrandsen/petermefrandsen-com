@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  background-color: #000;
+  scroll-behavior: smooth;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+a:link {
+  color: burlywood;
+}
+
+a:visited {
+  color: burlywood;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
