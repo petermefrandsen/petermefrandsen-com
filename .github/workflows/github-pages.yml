@@ -42,7 +42,7 @@ jobs:
       run: npm ci
 
     - name: Generate GitHub page content
-      run: ng build --configuration production --output-path=dist --base-href="https://petermefrandsen.github.io/petermefrandsen-com/"
+      run: ng build --configuration production --output-path=dist --base-href="https://petermefrandsen.com/"
 
     - name: Setup Pages
       uses: actions/configure-pages@v2
@@ -51,7 +51,7 @@ jobs:
       uses: actions/upload-pages-artifact@v1
       with:
         # Upload entire repository
-        path: './dist'
+        path: 'dist'
 
     - name: Deploy to GitHub Pages
       id: deployment
