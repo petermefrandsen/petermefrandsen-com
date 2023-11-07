@@ -3,9 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: Blog Home
-heroImage: /logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+heroImage: /assets/images/peter-square.png 
+#logo.svg
+heroText: Peter M E Frandsen
+tagline: Empowering organisations through Platform Excellence
 heroFullScreen: true
 projects:
   - icon: project
@@ -38,7 +39,7 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+# footer: Empowering organisations through Platform Excellence
 ---
 
 This is a blog home page demo.
