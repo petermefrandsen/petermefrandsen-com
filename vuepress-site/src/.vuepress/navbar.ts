@@ -9,39 +9,25 @@ export default navbar([
     prefix: "/posts/",
     children: [
       {
-        text: "Apple",
+        text: "Maturity Measurement",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "maturity-measurement/",
         children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
+          "measuring-maturity-teamcompany",
+          ],
       },
       {
-        text: "Banana",
+        text: "Platform Engineering",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "platform-engineering/",
         children: [
           {
             text: "Banana 1",
             icon: "pen-to-square",
             link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
+          }
         ],
       },
-      { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
   {

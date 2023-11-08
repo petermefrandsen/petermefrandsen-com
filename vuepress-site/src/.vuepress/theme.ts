@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/assets/images/peter-square.png", //logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "petermefrandsen/petermefrandsen-com",
 
   docsDir: "src",
 
