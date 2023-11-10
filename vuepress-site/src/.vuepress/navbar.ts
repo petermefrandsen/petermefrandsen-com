@@ -1,19 +1,22 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  "/demo/",
   {
-    text: "Posts",
+    text: "Home",
+    link: "/"
+  },
+  {
+    text: "Articles",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    prefix: "/articles/",
     children: [
       {
-        text: "Maturity Measurement",
+        text: "People and processes",
         icon: "pen-to-square",
-        prefix: "maturity-measurement/",
+        prefix: "people-and-processes/",
         children: [
           "measuring-maturity-teamcompany",
+          "realistic-processes"
           ],
       },
       {

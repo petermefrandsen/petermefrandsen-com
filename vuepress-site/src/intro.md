@@ -1,8 +1,9 @@
 ---
 icon: circle-info
-cover: /assets/images/cover3.jpg
+# cover: /assets/images/measuring-maturity-teamcompany-cover.png
+editLink: false
 ---
 
-# Intro Page
+# whoami - Peter M E Frandsen
 
-Place your introduction and profile here.
+

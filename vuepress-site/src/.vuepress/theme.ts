@@ -39,13 +39,14 @@ export default hopeTheme({
 
   blog: {
     description: "Architect, Platform Enthusiast, Mentor, Speaker, Writer",
-    // intro: "/intro.html", // TODO?
+    intro: "/intro.html",
     medias: {
       GitHub: "https://github.com/petermefrandsen",
       Linkedin: "https://www.linkedin.com/in/petermefrandsen",
       Gmail: "mailto:petermfrandsen@gmail.com",
       // MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],   // CUSTOM LINK AND ICON
     },
+    roundAvatar: true,
   },
 
   metaLocales: {

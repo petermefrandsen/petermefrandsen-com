@@ -7,7 +7,7 @@ heroImage: /assets/images/peter-square.png
 #logo.svg
 heroText: Peter M E Frandsen
 tagline: Empowering organisations through Platform Excellence
-heroFullScreen: true
+heroFullScreen: false
 projects:
   - icon: project
     name: project name
@@ -42,8 +42,8 @@ projects:
 # footer: Empowering organisations through Platform Excellence
 ---
 
-This is a blog home page demo.
+<!-- This is a blog home page demo. -->
 
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
+<!-- To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter. -->
 
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home/).
+<!-- For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home/). -->

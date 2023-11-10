@@ -8,6 +8,7 @@ category:
 tag:
   - Maturity Measurement
   - Scoring Method
+editLink: false
 ---
 
 # Measuring the maturity of a team/company

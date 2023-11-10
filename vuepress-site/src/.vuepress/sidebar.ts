@@ -2,13 +2,10 @@ import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
   "/": [
-    "",
     {
-      text: "Demo",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
+      text: "Home",
+      icon: "home",
+      link: "/"
     },
     {
       text: "Articles",
@@ -16,7 +13,10 @@ export default sidebar({
       prefix: "posts/",
       children: "structure",
     },
-    "intro",
-    "slides",
+    {
+      text: "Peter M E Frandsen",
+      icon: "info",
+      link: "intro.html"
+    }
   ],
 });
