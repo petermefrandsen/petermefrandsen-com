@@ -43,7 +43,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/petermefrandsen",
       Linkedin: "https://www.linkedin.com/in/petermefrandsen",
-      Gmail: "mailto:petermfrandsen@gmail.com",
+      // Gmail: "mailto:petermfrandsen@gmail.com",
       // MrHope: ["https://mister-hope.com", MR_HOPE_AVATAR],   // CUSTOM LINK AND ICON
     },
     roundAvatar: true,
