@@ -1,11 +1,11 @@
 ---
 icon: pen-to-square
 date: 2023-01-03
-cover: /assets/images/platform-engineering-cover.jpg
+cover: /assets/images/articles/platform-engineering-cover.jpg
 category:
   - Platform Engineering
 tag:
-  - platform teams
+  - Platform Teams
 editLink: false
 ---
 
@@ -17,7 +17,7 @@ Previously and even today software development has been done in silos, with each
 
 While the DevOps approach brought many benefits, it can be challenging to implement, especially in larger organizations. That’s why many companies are now turning to platform teams as a more effective way to organize their software development efforts.
 
-![Platform Engineering Team Diagram](./why-platform-teams-are-the-future-of-software-development.webp)
+![Platform Engineering Team Diagram](/assets/images/articles/why-platform-teams-are-the-future-of-software-development.webp)
 
 ## What are Platform Teams?
 
@@ -26,15 +26,15 @@ Platform teams are internal teams responsible for building and maintaining a pla
 ## Benefits of Platform Teams
 There are several benefits to adopting a platform team model for software development. Some of the key benefits include:
 
-- Roadmaps: Platform teams outline the direction and goals of the platform through roadmaps. These roadmaps are used to ensure that the platform remains relevant and valuable to the needs of the organisation.
+- **Roadmaps**: Platform teams outline the direction and goals of the platform through roadmaps. These roadmaps are used to ensure that the platform remains relevant and valuable to the needs of the organisation.
 
-- Critical mass: Similarly to traditional silos one benefit is that a platform team brings together a large team of experts in a specific domain thus achieving a critical mass of knowledge and skill that can drive innovation and improve quality.
+- **Critical mass**: Similarly to traditional silos one benefit is that a platform team brings together a large team of experts in a specific domain thus achieving a critical mass of knowledge and skill that can drive innovation and improve quality.
 
-- High expertise: As mentioned around the critical mass, platform teams often focus on a technical domain, allowing them to develop deep expertise in that area. This can help ensure that the platform is well-maintained and can support the organisation.
+- **High expertise**: As mentioned around the critical mass, platform teams often focus on a technical domain, allowing them to develop deep expertise in that area. This can help ensure that the platform is well-maintained and can support the organisation.
 
-- Operations focus: Instead of handing over the entire platform to an operations team the platform team often remains responsible for development tasks. This ensures that operation teams can focus on maintaining and optimizing the platform, which can lead to more efficient and effective operations.
+- **Operations focus**: Instead of handing over the entire platform to an operations team the platform team often remains responsible for development tasks. This ensures that operation teams can focus on maintaining and optimizing the platform, which can lead to more efficient and effective operations.
 
-- Consuming platforms and products: Platform teams can also help organizations to consume other platforms and products more effectively, by providing a stable and reliable foundation for integration. This can help to accelerate development and improve the quality of the final product(s).
+- **Consuming platforms and products**: Platform teams can also help organizations to consume other platforms and products more effectively, by providing a stable and reliable foundation for integration. This can help to accelerate development and improve the quality of the final product(s).
 
 ## Key Factors for Success
 

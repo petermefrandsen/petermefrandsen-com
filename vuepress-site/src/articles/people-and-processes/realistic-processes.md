@@ -1,13 +1,13 @@
 ---
 icon: pen-to-square
 date: 2021-12-21
-cover: /assets/images/realistic-processes.png
+cover: /assets/images/articles/realistic-processes.png
 category:
   - Evaluation
   - Processes
 tag:
-  - process
-  - improvement
+  - Process
+  - Improvement
 editLink: false
 ---
 

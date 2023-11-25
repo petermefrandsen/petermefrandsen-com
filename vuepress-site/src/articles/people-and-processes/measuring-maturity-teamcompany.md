@@ -1,7 +1,7 @@
 ---
 icon: pen-to-square
 date: 2021-12-10
-cover: /assets/images/measuring-maturity-teamcompany-cover.png
+cover: /assets/images/articles/measuring-maturity-teamcompany-cover.png
 category:
   - Evaluation
   - Maturity models
